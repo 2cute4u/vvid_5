@@ -3,13 +3,10 @@
 
 #include "pch.h"
 #include <iostream>
-#include <locale.h>
 
 int main()
 {
-	setlocale(LC_ALL, "Russian");
-    std::cout << "hey!\n"; 
-	std::cout << "прив!\n";
+	std::cout << "hey!\n"; 
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
